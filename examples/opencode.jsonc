@@ -1,0 +1,17 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "plugins": [
+    {
+      "package": "opencode-deepseek-web",
+      "options": {
+        "count": 10,
+        "needContent": false,
+        "maxFetchChars": 100000
+      }
+    }
+  ],
+  "permissions": [
+    { "action": "websearch", "resource": "*", "effect": "allow" },
+    { "action": "webfetch", "resource": "*", "effect": "allow" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "name": "opencode-deepseek-web",
+  "version": "0.1.0",
+  "description": "DeepSeek Search and Fetch for OpenCode V2: a websearch provider and a DeepSeek-backed web fetch tool.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "deepseek",
+    "websearch",
+    "webfetch",
+    "ai"
+  ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/*.test.ts",
+    "check": "npm run typecheck && npm test"
+  },
+  "dependencies": {
+    "@opencode/plugin": "^2.0.26"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
