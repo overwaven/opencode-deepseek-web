@@ -4,6 +4,14 @@
   "description": "DeepSeek Search and Fetch for OpenCode V2: a websearch provider and a DeepSeek-backed web fetch tool.",
   "type": "module",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overwaven/opencode-deepseek-web.git"
+  },
+  "homepage": "https://github.com/overwaven/opencode-deepseek-web",
+  "bugs": {
+    "url": "https://github.com/overwaven/opencode-deepseek-web/issues"
+  },
   "keywords": [
     "opencode",
     "opencode-plugin",

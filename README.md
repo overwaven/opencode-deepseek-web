@@ -37,6 +37,8 @@ Or install it with the OpenCode CLI:
 
 ```bash
 opencode plugin add opencode-deepseek-web
+# or straight from GitHub, before the npm release
+opencode plugin add github:overwaven/opencode-deepseek-web
 ```
 
 For local development, point `plugins` at the package directory:
